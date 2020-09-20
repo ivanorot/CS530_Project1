@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include <string.h>
 #include "AddressReferences.h"
@@ -9,7 +10,7 @@ private:
 	AddressReferences addresses;
 
 public:
-	
+
 	HexDecoder() {
 	}
 
@@ -30,7 +31,7 @@ public:
 
 
 
-	
+
 	char intToChar(int num) {
 		char tempChar;
 		if (num < 10) {
